@@ -1,0 +1,17 @@
+body{
+	 font-family: helvetica, arial, geneva, sans-serif; 
+     background-color: #f7ce8a;
+    
+}
+
+h1{
+  text-align: center;
+}
+
+div.header{
+  background-color: #ffff;
+}
+
+span.linkheader{
+  background-color: #faff
+}
