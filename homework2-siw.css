@@ -3,16 +3,6 @@ body{
     
 }
 
-h1 { 
-  letter-spacing: 5px;
-  word-spacing: 20px;
-  text-align: center;
-  color: #7c795d;
-  font-family: 'Trocchi', serif;
-  font-size: 53px;
-  font-weight: bold;
-  line-height: 48px; margin: 0; 
-}
 
 div.paragraphTitle { 
     letter-spacing: 10px;
@@ -37,10 +27,10 @@ div.paragraph{
   line-height: 32px;
   margin: 0 0 24px;
 
-    margin-top: 50px;
+  margin-top: 50px;
   margin-bottom: 100px;
   margin-right: 80x;
-  margin-left: 80px;
+  margin-left: 250px;
 }
 
 .paragraphWrapper{
@@ -49,3 +39,52 @@ div.paragraph{
 }
 
 a { color: #ff9900; background: #fff4a3; text-decoration: none; }
+
+
+  .wrapper .sidebar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profilo{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profilo img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profilo h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profilo p {
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+}
+
+.wrapper .sidebar ul li {
+      display: block;
+    padding: 13px 30px;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.sidebar a{
+  text-decoration: underline;
+  color: rgb(241, 237, 237);
+  background: rgb(5, 68, 104)
+}
